@@ -1,0 +1,283 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body {
+  /* background-image: url("https://images7.alphacoders.com/422/422958.jpg"); */
+  background-image: url("https://www.85cbakerycafe.com/wp-content/uploads/2022/02/menu-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.nav{
+  background: transparent;
+  padding: 5px;
+  margin: 5px;
+}
+.link{
+  text-decoration: none;
+  color: bisque;
+}
+.link:hover{
+  text-decoration: none;
+  color: gold;
+}
+.heading1{
+  font-size: 4rem;
+  color: bisque;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: oblique;
+}
+.heading2{
+  font-size: 2rem;
+  color: bisque;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
+}
+.intropar{
+  font-size: 1rem;
+  color: bisque;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
+  text-align: center;
+  border-bottom: 1px solid burlywood;
+  padding: 5px;
+  margin: 5px;
+}
+.container1{
+  border: 1px solid bisque;
+}
+.container1 img{
+  position: relative;
+  right: 250px;
+}
+.cafelogo{
+  padding-right: 10px;
+
+}
+
+.info{
+  position: relative;
+  bottom: 150px;
+  color: gold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
+  padding: 3px;
+}
+.mapheading{
+  color: bisque;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 3px;
+  font-style: italic;
+}
+label{
+  color: bisque;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
+}
+
+#copyrightinfo{
+ color: bisque;
+ font-size: 0.5rem;
+ position: relative;
+ padding: 5px;
+ 
+}
+.map1{
+  height: 400px;
+  position:relative;
+}
+#copyrightinfo a{
+  color: bisque;
+  text-decoration: none;
+ }
+ #copyrightinfo a:hover{
+  color: red;
+  text-decoration: none;
+ }
+
+input{
+  background: transparent;
+  margin: 10px;
+  color: bisque;
+}
+.header{
+  font-size: 3rem;
+  color: bisque;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: oblique;
+}
+.header p{
+  font-size: 2rem;
+  color: bisque;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: oblique;
+}
+#name{
+  width: 300px;
+  height: 1.5rem;
+  background: transparent;
+  color: bisque;
+  position: relative;
+  left: 500px;
+  
+}
+.form-group{
+  justify-content: center;
+}
+#email{
+  width: 300px;
+  height: 1.5rem;
+  background: transparent;
+  color: bisque;
+  position: relative;
+  left: 500px;
+}
+.formlabel{
+  position: relative;
+  right: 100px;
+}
+.aboutuspic{
+  height: 500px;
+  width: 500px;
+}
+
+.carousalcap{
+  color: gold;
+  font-weight: bold;
+}
+ @media only screen and (max-width: 900px) {
+  .container1 img{
+    visibility: hidden;
+  }
+  #copyrightinfo{
+    color: bisque;
+    font-size: 0.5rem;
+    position: relative;
+    padding: 5px;
+   }
+   .container2 img{
+    visibility: hidden;
+   }
+   #email{
+    width: 250px;
+    height: 1.5rem;
+    background: transparent;
+    color: bisque;
+    position: relative;
+    left: 120px;
+  }
+  #name{
+    width: 250px;
+    height: 1.5rem;
+    background: transparent;
+    color: bisque;
+    position: relative;
+    left: 120px;
+  }
+
+}
+
+@media only screen and (max-width: 1000px) {
+  .container1 img{
+    position: relative;
+  right: 200px;
+  }
+  #email{
+    width: 250px;
+    height: 1.5rem;
+    background: transparent;
+    color: bisque;
+    position: relative;
+    left: 150px;
+  }
+  #name{
+    width: 250px;
+    height: 1.5rem;
+    background: transparent;
+    color: bisque;
+    position: relative;
+    left: 150px;
+  }
+
+}
+@media only screen and (max-width: 1250px) {
+  .container1 img{
+    position: relative;
+  right: 200px;
+  }
+  #email{
+    width: 250px;
+    height: 1.5rem;
+    background: transparent;
+    color: bisque;
+    position: relative;
+    left: 250px;
+  }
+  #name{
+    width: 250px;
+    height: 1.5rem;
+    background: transparent;
+    color: bisque;
+    position: relative;
+    left: 250px;
+  }
+
+
+}
+@media only screen and (max-width: 360px) {
+  #email{
+    width: 250px;
+    height: 1.5rem;
+    background: transparent;
+    color: bisque;
+    position: relative;
+    left: 10px;
+  }
+  #name{
+    width: 250px;
+    height: 1.5rem;
+    background: transparent;
+    color: bisque;
+    position: relative;
+    left: 10px;
+  }
+  .aboutuspic{
+    height: 300px;
+  }
+
+}
