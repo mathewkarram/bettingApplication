@@ -5,5 +5,7 @@ They can select a team or driver and check the odds of their bet before betting.
 
 Demo: 
 
-https://github.com/mathewkarram/bettingApplication/assets/124641476/c11bba3b-f754-4c01-a075-6dd65a16063a
+
+https://github.com/mathewkarram/bettingApplication/assets/124641476/4fe7485f-ce4a-4800-9d9d-59cf700944a6
+
 
